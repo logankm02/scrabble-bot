@@ -1,0 +1,104 @@
+* {
+    font-family: "Cabin", sans-serif;
+    background-color: #f8f8f8;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: screen;
+
+}
+
+h1, p {
+    text-align: center;
+}
+
+.scrabble-table {
+    margin-bottom: 10px;
+}
+
+.scrabble-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.scrabble-cell {
+    width: 30px;
+    text-align: center;
+}
+
+.scrabble-cell select {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    font-size: 14px;
+    color: black;
+    background-color: #fffff0;
+    cursor: pointer;
+    appearance: none;
+    text-align: center;
+}
+
+.scrabble-cell select.red-background {
+    background-color: red;
+}
+
+.scrabble-cell select.pink-background {
+    background-color: pink;
+}
+
+.scrabble-cell select.lightblue-background {
+    background-color: lightblue;
+}
+
+.scrabble-cell select.blue-background {
+    background-color: blue;
+}
+
+.scrabble-row .index {
+    width: 50px;
+    text-align: center;
+}
+
+.rack {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.rack select {
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+form button {
+    width: 30%;
+    justify-self: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 1%;
+    padding: 2%
+}
+
+
+.tile {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+}
